@@ -1,7 +1,7 @@
-id: C9ru1w-txEmg6L--7YCMBg
+id: Msq8k_HQNE2u8m88GTFn9w
 projectId: gK-07TGjVUKKz5GmF4HlaA
 projectName: My first Project
-created: 2022-06-11T19:20:32.0638451Z
+created: 2022-06-11T19:25:27.2669019Z
 protocol: 1
 tests:
 - id: 9SdUlUYRBE2YwkDf7nPlkg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-11T19:14:09.0000000
-  modificationDate: 2022-06-11T19:20:21.0000000
+  modificationDate: 2022-06-11T19:24:41.0000000
   settings:
     automationAssistant: true
     appId: CwCv9evpxEaHKLeUz2V0Tg
@@ -153,12 +153,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: ZZj7Yt8LqUOaYBMpzv2ZEQ
+  - id: CCGdfCxtfEqbSMT3KFU1zw
+    comments: ''
     enabled: true
     invertResult: false
     order: 6
     repeat: 1
-    type: Action
+    type: Addon
     elementId: pYze26l-pkyWvUyfJQKowQ
     settings:
       sleepTime: -1
@@ -167,20 +168,21 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
+      id: c7OPWafS8kaFJUBVwrhoRw
+      source: Store
+      addonId: 9G7qW0nEqU60ObO6IXJshg
     parameterMaps: []
     conditions: []
     validations: []
     contexts: []
-  - id: 1ZQBUSRTwUWzMnZC-kXalQ
+  - id: vgVLb97jmkmo4PjHViKj3g
     comments: ''
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Addon
-    elementId: xyj6d-xliUmBgqnhQajV8w
+    elementId: gdndkThYb0274TQTd_1JBQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -201,7 +203,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: EzAlJgPzO0KMjFwa0VGoFg
+  - id: Zdkw_XS3Jkifut8VVjp3Sg
     comments: ''
     enabled: true
     invertResult: false
@@ -249,22 +251,6 @@ elements:
   - name: XPATH
     value: /html/body/footer/div/div/div[1]/div[2]/a/div/img
     priority: 1
-- id: xyj6d-xliUmBgqnhQajV8w
-  name: google_logo Play
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'google_logo Play']
-    priority: 0
-  - name: XPATH
-    value: //header/nav/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/c-wiz[1]/header/nav/a
-    priority: 2
 - id: t3dFHVaQv0av0gRlXRBXlg
   name: Atomic Wallet
   type:
@@ -281,6 +267,22 @@ elements:
   - name: XPATH
     value: /html/body/c-wiz[2]/div/div/div[1]/div[1]/div/div/c-wiz/div[2]/div[1]/div/div/div/a/span
     priority: 2
+- id: gdndkThYb0274TQTd_1JBQ
+  name: google_logo Play1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'google_logo Play']
+    priority: 0
+  - name: XPATH
+    value: //nav/a/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/c-wiz[1]/header/nav/a/span
+    priority: 2
 projectParameters: []
 addons:
 - id: Ow3LGSkBqUyGjzyAibUJig
@@ -296,6 +298,19 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: A589F45A9AC2C9F57FF6444BC6E9504C2F17FD5054E39E6066665079B054FAB2
+- id: 9G7qW0nEqU60ObO6IXJshg
+  source: Store
+  version: 1.9
+  actions:
+  - id: c7OPWafS8kaFJUBVwrhoRw
+    name: Click (using JavaScript)
+    description: Click {{element}}
+    className: io.testproject.addon.jsactions.ClickAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 391BA51B31B3A1CADC112A2DD7D674CCC8AA80895D1FB9B1A90928D01D0153F3
 - id: inW2AJJ04ku45E9-RN2zqA
   source: Store
   version: 2.10
