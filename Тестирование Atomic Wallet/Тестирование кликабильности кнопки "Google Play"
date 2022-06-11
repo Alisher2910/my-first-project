@@ -1,7 +1,7 @@
-id: 0b3sApLKhEijAUz0fo8D-A
+id: C9ru1w-txEmg6L--7YCMBg
 projectId: gK-07TGjVUKKz5GmF4HlaA
 projectName: My first Project
-created: 2022-06-11T19:16:37.1268129Z
+created: 2022-06-11T19:20:32.0638451Z
 protocol: 1
 tests:
 - id: 9SdUlUYRBE2YwkDf7nPlkg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-11T19:14:09.0000000
-  modificationDate: 2022-06-11T19:16:28.0000000
+  modificationDate: 2022-06-11T19:20:21.0000000
   settings:
     automationAssistant: true
     appId: CwCv9evpxEaHKLeUz2V0Tg
@@ -173,33 +173,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 0MpXZcgnTU-XJ90sS8nVSQ
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
-      source: System
-    parameterMaps:
-    - name: index
-      value: 1
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: 1ZQBUSRTwUWzMnZC-kXalQ
     comments: ''
     enabled: true
     invertResult: false
-    order: 8
+    order: 7
     repeat: 1
     type: Addon
     elementId: xyj6d-xliUmBgqnhQajV8w
@@ -227,7 +205,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Addon
     elementId: t3dFHVaQv0av0gRlXRBXlg
