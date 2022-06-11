@@ -1,0 +1,346 @@
+id: JwZz27-3XU-ypfd34I7MGA
+projectId: gK-07TGjVUKKz5GmF4HlaA
+projectName: My first Project
+created: 2022-06-11T18:52:31.2286102Z
+protocol: 1
+tests:
+- id: ToiMXxD4qk6rKNF59xErOA
+  name: Есть ли отзыв ernestu espirito
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-11T09:33:04.0000000
+  modificationDate: 2022-06-11T09:38:56.0000000
+  settings:
+    automationAssistant: true
+    appId: wDGxKseY0U6LeWGGyqn79A
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: wDGxKseY0U6LeWGGyqn79A
+    name: https://atomicwallet.io/ru
+    url: https://atomicwallet.io/ru
+    platform: Web
+  steps:
+  - id: kp4X_D53Nki2WfI0TBK9sw
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UY4uLdIy-UudRF7LcGoPOw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: HrZg0qx1IU2CvUUBPwe9sg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yOy0AyKZU0a-K60P9WkvKw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: HrZg0qx1IU2CvUUBPwe9sg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: h3eKS9GmnEK8KC7K1ZZIag
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: JT0780RUMU62Kc3W5hegLQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: PSdUuhrXQUSsyxHQlvJFuw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2XesXa3RdEKS4ts7-tQlMQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 500
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: lxF-lKDxk0q4JbQCftIeXQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pNg83AAnlk2lFCS_srtOdg
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: XzzcbAA8f0KxaUJwrDAlLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -7DO2yFM4EKBQAIPS-TiUw
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: XzzcbAA8f0KxaUJwrDAlLw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1K5knIamZU6sSgsD-Ggk4A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Addon
+    elementId: lmcEyWvUzE-TS9ob100yWQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://atomicwallet.io/ru
+    type: Input
+auxTests: []
+elements:
+- id: HrZg0qx1IU2CvUUBPwe9sg
+  name: RU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//div[. = ' ru ']
+    priority: 0
+  - name: XPATH
+    value: //header/div/div/div[4]/div/div[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[1]
+    priority: 2
+- id: JT0780RUMU62Kc3W5hegLQ
+  name: English
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//button[. = 'English']
+    priority: 0
+  - name: XPATH
+    value: //div[4]/div/div[2]/ul/li[1]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[2]/ul/li[1]/button
+    priority: 2
+- id: XzzcbAA8f0KxaUJwrDAlLw
+  name: DIV
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //section[2]//div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/section[2]/div/div[2]/div[3]
+    priority: 1
+- id: lmcEyWvUzE-TS9ob100yWQ
+  name: Personal favorite multi currency wall...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTM
+    name: Paragraph
+    source: System
+  locators:
+  - name: XPATH
+    value: //p[. = 'Personal favorite multi currency wallet. Very useful Coin Swapping exchange, Swap any coin to other coin, I normally used it for swapping my high value coins against small value coins... ']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/a[5]/div/p
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/section[2]/div/div[2]/div[1]/div/a[5]/div[2]/p
+    priority: 2
+projectParameters: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: DvmyABJEKEOo2-2rlbbNvg
+    name: Get text (if visible)
+    description: Get text from {{element}} if it's visible
+    className: io.testproject.addon.GetTextActions.GetTextIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675

@@ -1,0 +1,435 @@
+id: AhyjaUs-wkeM0XcEX_NXBA
+projectId: gK-07TGjVUKKz5GmF4HlaA
+projectName: My first Project
+created: 2022-06-11T18:52:31.2293532Z
+protocol: 1
+tests:
+- id: 6zYRjQHkA0CD7luXeHKdBA
+  name: Проверка кликабельности кнопки "Get Cashback"
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-11T18:32:45.0000000
+  modificationDate: 2022-06-11T18:40:13.0000000
+  settings:
+    automationAssistant: true
+    appId: CwCv9evpxEaHKLeUz2V0Tg
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: CwCv9evpxEaHKLeUz2V0Tg
+    name: https://atomicwallet.io
+    url: https://atomicwallet.io/
+    platform: Web
+  steps:
+  - id: uGLkLxvwnUGD2o22ofD1QQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nLAFOqyACk2esNB8E-ysLA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: iLCQWf9mNkeTc71BaCJnRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uG8kNXtJ9EiWvA31OXWf2w
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: iLCQWf9mNkeTc71BaCJnRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zAQWeGP90E-xjmYMryfcpw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    elementId: eb6YzQhROE2Ct4OYpxKAlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: S36VdpSMbki19cGbuuZnTw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: eb6YzQhROE2Ct4OYpxKAlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 90w4rzzi-k2ZxJj-F52eRg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 800
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: q5XtkpQ5q0ieiuRCIl1ECw
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 800
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: XQ5LJtTzBEm9zDVfu8ePjw
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 600
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wli1Mc2fH0iK7407jNQulQ
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 700
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 11b40f1OXEaF_VGumU3jfw
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 700
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 4IWFyFpCT0Gbj3ev0Ofh-A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Addon
+    elementId: PyxcDgiD90GG_QxdqSEspg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aK48W4Y3vUKrpjXUTMUEXQ
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: PyxcDgiD90GG_QxdqSEspg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: YCDXc12p00eVYhb8W9q6aA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Addon
+    elementId: sjzDtqaDXEWzpXRn5_OWTA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://atomicwallet.io/
+    type: Input
+auxTests: []
+elements:
+- id: iLCQWf9mNkeTc71BaCJnRw
+  name: RU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//div[. = ' ru ']
+    priority: 1
+  - name: XPATH
+    value: //header/div/div/div[4]/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[1]
+    priority: 2
+- id: eb6YzQhROE2Ct4OYpxKAlA
+  name: English
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//button[. = 'English']
+    priority: 1
+  - name: XPATH
+    value: //div[4]/div/div[2]/ul/li[1]/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[2]/ul/li[1]/button
+    priority: 2
+- id: PyxcDgiD90GG_QxdqSEspg
+  name: GET CASHBACK
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = ' Get Cashback ']
+    priority: 0
+  - name: XPATH
+    value: //section/div/div[1]/div[1]/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/section[5]/div/div[1]/div[1]/div/a
+    priority: 2
+- id: sjzDtqaDXEWzpXRn5_OWTA
+  name: Cashback program
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = 'Cashback program ']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div/section[1]/div[1]/div/div/div[1]/div/h1
+    priority: 2
+projectParameters: []
+addons:
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: DvmyABJEKEOo2-2rlbbNvg
+    name: Get text (if visible)
+    description: Get text from {{element}} if it's visible
+    className: io.testproject.addon.GetTextActions.GetTextIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
