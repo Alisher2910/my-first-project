@@ -1,7 +1,7 @@
-id: moiibVM7-0WZD4Ugcfahng
+id: belHRTIDVkGKBF5EqnBQAg
 projectId: gK-07TGjVUKKz5GmF4HlaA
 projectName: My first Project
-created: 2022-06-11T19:14:09.5505116Z
+created: 2022-06-11T19:16:37.7859955Z
 protocol: 1
 tests:
 - id: 9SdUlUYRBE2YwkDf7nPlkg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-11T19:14:09.0000000
-  modificationDate: 2022-06-11T19:14:09.0000000
+  modificationDate: 2022-06-11T19:16:28.0000000
   settings:
     automationAssistant: true
     appId: CwCv9evpxEaHKLeUz2V0Tg
@@ -50,12 +50,284 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: q1qLbW1o9kOGM6QhtP-LxQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 10627
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: acEVird8nEu8eNYupbbOww
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 156
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: t8j3ZBeoIE2CvWQFsRHw2Q
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 44
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wv_Gt-th7EO_46yvjwvNGQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Addon
+    elementId: pYze26l-pkyWvUyfJQKowQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: YbFok5RvWUi97e_dm3uGnw
+      source: Store
+      addonId: Ow3LGSkBqUyGjzyAibUJig
+    parameterMaps:
+    - name: x
+      value: ''
+      direction: Output
+    - name: y
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZZj7Yt8LqUOaYBMpzv2ZEQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: pYze26l-pkyWvUyfJQKowQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0MpXZcgnTU-XJ90sS8nVSQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1ZQBUSRTwUWzMnZC-kXalQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    elementId: xyj6d-xliUmBgqnhQajV8w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EzAlJgPzO0KMjFwa0VGoFg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Addon
+    elementId: t3dFHVaQv0av0gRlXRBXlg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://atomicwallet.io/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: pYze26l-pkyWvUyfJQKowQ
+  name: IMG4
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div[1]/div[2]/a/div/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/footer/div/div/div[1]/div[2]/a/div/img
+    priority: 1
+- id: xyj6d-xliUmBgqnhQajV8w
+  name: google_logo Play
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'google_logo Play']
+    priority: 0
+  - name: XPATH
+    value: //header/nav/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/c-wiz[1]/header/nav/a
+    priority: 2
+- id: t3dFHVaQv0av0gRlXRBXlg
+  name: Atomic Wallet
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Atomic Wallet']
+    priority: 0
+  - name: XPATH
+    value: //div/div/div/div/a/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/c-wiz[2]/div/div/div[1]/div[1]/div/div/c-wiz/div[2]/div[1]/div/div/div/a/span
+    priority: 2
 projectParameters: []
-addons: []
+addons:
+- id: Ow3LGSkBqUyGjzyAibUJig
+  source: Store
+  version: 2.8
+  actions:
+  - id: YbFok5RvWUi97e_dm3uGnw
+    name: Get location
+    description: Get {{element}} location
+    className: io.testproject.addons.element.web.GetElementLocationWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: A589F45A9AC2C9F57FF6444BC6E9504C2F17FD5054E39E6066665079B054FAB2
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: DvmyABJEKEOo2-2rlbbNvg
+    name: Get text (if visible)
+    description: Get text from {{element}} if it's visible
+    className: io.testproject.addon.GetTextActions.GetTextIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
