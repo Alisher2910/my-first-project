@@ -1,7 +1,7 @@
-id: p5_jj6VV9U6VRMOkFF4Hbw
+id: aQ_p7oBd9kyUB8GdxEm5Gw
 projectId: gK-07TGjVUKKz5GmF4HlaA
 projectName: My first Project
-created: 2022-06-11T19:10:44.6993532Z
+created: 2022-06-11T19:13:22.4389242Z
 protocol: 1
 tests:
 - id: Wsy-57QgCUKcBbouqSRVvQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-11T19:10:44.0000000
-  modificationDate: 2022-06-11T19:10:44.0000000
+  modificationDate: 2022-06-11T19:13:14.0000000
   settings:
     automationAssistant: true
     appId: CwCv9evpxEaHKLeUz2V0Tg
@@ -50,12 +50,321 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: szEzqn_eTE-R2tUkiwWLcw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Addon
+    elementId: iLCQWf9mNkeTc71BaCJnRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: W-zwYJB790qB32mbzTVKnw
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: iLCQWf9mNkeTc71BaCJnRw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: orjdtXpXQk-lIhaBtHSRHA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Addon
+    elementId: eb6YzQhROE2Ct4OYpxKAlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: D0hDjiEa80-Yu66NmZ_RgQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: eb6YzQhROE2Ct4OYpxKAlA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: O7cMXzdw50WAP56PG5DgZQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 10627
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pggV8eNwfkKRQGLXxINlcg
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uA5qAMyinEGLCjeEeHbkzQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Addon
+    elementId: znMJaZ_ca0yAgqgFHB6iPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: YbFok5RvWUi97e_dm3uGnw
+      source: Store
+      addonId: Ow3LGSkBqUyGjzyAibUJig
+    parameterMaps:
+    - name: x
+      value: ''
+      direction: Output
+    - name: y
+      value: ''
+      direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UEs61Ckg9U2kOrfVD33r7Q
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: znMJaZ_ca0yAgqgFHB6iPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: czfLgMpsN0yfvkv7R7dxBQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Addon
+    elementId: eeCZIchpRUSLc6AJk-Cvhg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: DvmyABJEKEOo2-2rlbbNvg
+      source: Store
+      addonId: inW2AJJ04ku45E9-RN2zqA
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Output
+    - name: timeout
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://atomicwallet.io/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: iLCQWf9mNkeTc71BaCJnRw
+  name: RU
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//div[. = ' ru ']
+    priority: 1
+  - name: XPATH
+    value: //header/div/div/div[4]/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[1]
+    priority: 2
+- id: eb6YzQhROE2Ct4OYpxKAlA
+  name: English
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]//button[. = 'English']
+    priority: 1
+  - name: XPATH
+    value: //div[4]/div/div[2]/ul/li[1]/button
+    priority: 0
+  - name: XPATH
+    value: /html/body/header/div/div/div[4]/div/div[2]/ul/li[1]/button
+    priority: 2
+- id: znMJaZ_ca0yAgqgFHB6iPg
+  name: IMG3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //footer/div/div/div[1]/div[1]//img
+    priority: 0
+  - name: XPATH
+    value: /html/body/footer/div/div/div[1]/div[1]/div[1]/a/img
+    priority: 1
+- id: eeCZIchpRUSLc6AJk-Cvhg
+  name: Crypto Wallet for Buying, Staking & E...
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h1[. = ' Crypto Wallet for Buying, Staking & Exchanging ']
+    priority: 0
+  - name: XPATH
+    value: //h1
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/section[1]/div/div/div[1]/h1
+    priority: 2
 projectParameters: []
-addons: []
+addons:
+- id: Ow3LGSkBqUyGjzyAibUJig
+  source: Store
+  version: 2.8
+  actions:
+  - id: YbFok5RvWUi97e_dm3uGnw
+    name: Get location
+    description: Get {{element}} location
+    className: io.testproject.addons.element.web.GetElementLocationWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: A589F45A9AC2C9F57FF6444BC6E9504C2F17FD5054E39E6066665079B054FAB2
+- id: inW2AJJ04ku45E9-RN2zqA
+  source: Store
+  version: 2.10
+  actions:
+  - id: DvmyABJEKEOo2-2rlbbNvg
+    name: Get text (if visible)
+    description: Get text from {{element}} if it's visible
+    className: io.testproject.addon.GetTextActions.GetTextIfVisibleWeb
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: CB217F4B750B6C3441DDB87E262A5C710BB3891BAE1F68FFF01CF07AEB036675
